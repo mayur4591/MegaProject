@@ -1,0 +1,29 @@
+.dash-sec, .dashboard{
+  color: white !important;
+  
+}
+.dash{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.count{
+  font-size: 50px;
+  font-weight: bold;
+}
+.dash-sec-a{
+  background-color: rgba(178, 178, 178, 0.283);
+  text-align: left;
+}
+.sec-name{
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+.info{
+  background-color: rgba(255, 255, 255, 0.356);
+}
+.dash-sec:hover{
+   transform: scale(1.05);
+   z-index: 2;
+   transition: transform 500ms ease-in-out;
+   border: 1px white solid;
+}

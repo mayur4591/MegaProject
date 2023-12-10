@@ -1,0 +1,79 @@
+.vote-btn-a{
+    text-decoration: none;
+    color: white;
+}
+.votepage{
+    overflow: hidden;
+}
+.vote-btn{
+    padding: 7px 0;
+    background-color: green !important;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px rgb(129, 239, 146);
+}
+.voteL-1{
+    margin:25px 0px;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+}
+.table-header{
+    font-weight: bold;
+    padding: 10px 0 ;
+    background-color: rgb(185, 185, 185);
+}
+.table-data{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.cad-name{
+    font-weight: bold;
+}
+.cad-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    box-shadow: 2px 2px 11px rgb(183, 182, 182);
+}
+.walkthrough-pagination {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+   
+    .dot {
+      background-color: rgb(156, 156, 156) !important;
+      box-shadow: 1px 1px 5px rgb(143, 143, 143);
+      border-radius: 8px;
+      height: 8px;
+      margin: 0 4px;
+      transform: scale(0.75);
+      /* transition: transform 0.4s $bezier, background 0.4s $bezier; */
+      width: 25px;
+
+    
+    }
+    .active {
+        background-color: rgb(255, 255, 255)!important;
+        transform: scale(1);
+        transition-delay: 0.4s;
+      }
+  }
+.consti{
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+}
+.asmb{
+    padding: 25px;
+    border-radius: 10px;
+}
+.asmb-name{
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    align-self: center;
+    font-size: 1.5rem;
+}

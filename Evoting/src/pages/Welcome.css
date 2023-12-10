@@ -1,0 +1,73 @@
+.backimage{
+    background-image: url("../images/Welback.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.line-1{
+    color: rgb(255, 255, 255) !important;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: left;
+}
+.line-2{ 
+    opacity: 1;
+    background-color: rgb(249, 239, 0)!important;
+    height: 3px;
+}
+.buttons{
+    justify-content: space-around;
+    font-size: 10px;
+    font-weight: 600;
+}
+.img-1{
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 300px;
+    width:200px;
+}
+@media screen and (height = 600px ) {
+    .backimage{
+        height: auto;
+        padding : 40px 0;
+    }
+}
+@media screen and (width<510px) {
+    .img{
+        height: 150px;
+        width:60px;
+    }
+    .line-1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .backimage{
+        height: auto;
+        padding : 40px 0;
+    }
+    
+}
+.para-1{
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+}
+.btn-a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.btn-1{
+    background-color: white;
+    border-radius: 10px;
+}
+.line-4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    color: white;
+ 
+}

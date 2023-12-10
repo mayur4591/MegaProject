@@ -1,0 +1,86 @@
+.step{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.loginpage{
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(142deg, #9861c2, #8ad6ee);
+    font-family: "Lato", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+.fill-a, .fill-b{
+    height: 100%;
+}
+.fill-a{
+    align-items: center;
+    justify-content: center;
+    
+}
+.Auth-a{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+}
+.fill-b{
+    clip-path: polygon(25% 10%, 75% 10%, 100% 50%, 75% 90%, 25% 90%, 0% 50%);
+    /* clip-path: circle(40% at 50% 50%); */
+    background-image: url(../images/vote.png);
+    background-size: cover;
+    filter: opacity(0.8) drop-shadow(0 0 rgb(183, 125, 237));
+}
+.Authline-1{
+    color: rgb(0, 0, 0) !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Authline-2{
+    color: white !important;
+}
+.Authline-3{
+    opacity: 1;
+    color: white;
+    background-color: white;
+    height: 2px;
+}
+.Authlabel{
+    text-align: left;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.Authinput{
+    width:100%;
+    border: none;
+    border-radius:4px;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.Authinput:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+.AuthBtn-1{
+    background-color: rgb(128, 30, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn-b{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.AuthText-1{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
