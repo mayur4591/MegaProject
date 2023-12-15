@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "web3": "^4.3.0"
-  }
+  },
+  "name": "project",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarunaRandive26/Evoting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarunaRandive26/Evoting/issues"
+  },
+  "homepage": "https://github.com/KarunaRandive26/Evoting#readme",
+  "description": ""
 }

@@ -1,0 +1,80 @@
+.createpage{
+    color: white !important;
+    
+}
+.create{
+    transform: scale(1.1);
+}
+.home-title{
+    color: white !important;
+    font-size: 30px !important;
+}
+.ele-form{
+    background-color: rgba(255, 255, 255, 0.291);
+    border-radius: 4px;
+    
+}
+.line-b{
+    opacity: 1;
+    background-color: rgb(190, 190, 190) !important;
+    height: 1px;
+    color: transparent;
+}
+.ele-sec{
+    font-size: 20px;
+}
+.check{
+    transform: scale(1.5);
+    margin: 5px;
+    
+}
+.ele-consti{
+    text-align: left !important;
+}
+.ele-sec > label{
+    font-weight: bold;
+}
+.ele-sec > input{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    filter: invert(1);
+}
+.ele-sec > select{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    filter: invert(1);
+}
+.ele-date > input{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    filter: invert(1);
+}
+.ele-date > input{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    filter: invert(1);
+}
+.ele-time > input{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    filter: invert(1);
+}
+.btn-c{
+    padding: 7px 0;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 7px;
+    border: 2px solid white;
+    font-size: bold !important;
+    justify-content: right !important;
+}
+

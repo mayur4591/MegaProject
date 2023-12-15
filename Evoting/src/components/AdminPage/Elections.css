@@ -1,0 +1,21 @@
+
+.card-body{
+   justify-content: space-between;
+   align-content: center;
+   align-items: center;
+}
+
+.list-group-item >strong{
+    color:  rgb(255, 192, 0);
+}
+.container-title{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 192, 0) ;
+} 
+.btn-add{
+   border: none;
+   border-radius: 4px;
+   background-color: black !important;
+}

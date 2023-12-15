@@ -1,0 +1,44 @@
+.win-info{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;   
+}
+.win-cad{
+    background-color: rgb(234, 234, 234);
+    
+}
+.result-head{
+   text-align: left;
+}
+.cad-img{
+    justify-content: left !important;
+    box-shadow: 3px 3px 15px grey;
+}
+.r-card{
+    justify-content: center;
+    
+}
+.d-count{
+    font-weight: 600;
+    font-size: 50px;
+    color: #07ac04;
+}
+.d-text{
+    font-weight: bold;
+}
+.vote-data{
+    margin:0px 60px;
+
+}
+.cad-data{
+    margin:0px 60px;
+    text-align: left;
+}
+.d-sec{
+    font-weight: bold;
+    font-size: 20px;
+}
+.d-data{
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}

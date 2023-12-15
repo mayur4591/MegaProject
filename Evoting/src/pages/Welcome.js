@@ -18,7 +18,7 @@ const Welcome = () => {
                             <a href="/userauthentication" className="btn-a ">User Login</a>
                         </div>
                         <div className="col-5 btn-1 my-4 py-2">
-                            <a href="/" className="btn-a ">Admin Login</a>
+                            <a href="/admin" className="btn-a ">Admin Login</a>
                         </div>
                         </div>     
                     </div>
